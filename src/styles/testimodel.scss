@@ -1,0 +1,150 @@
+.testimonials {
+  padding: 100px 227px;
+
+  &-subtitle {
+    font-family:
+      Poppins Arial,
+      Helvetica,
+      sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+
+    line-height: 100%;
+    letter-spacing: 3px;
+    text-align: left;
+    text-transform: uppercase;
+
+    color: #c0cdd7;
+  }
+
+  &-title {
+    font-family:
+      Poppins Arial,
+      Helvetica,
+      sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #253757;
+  }
+
+  &-info {
+    margin-bottom: 85px;
+  }
+
+  &-card {
+    width: 362px;
+    height: 494px;
+    background-color: #fff;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    &-visual {
+      display: flex;
+      gap: 30px;
+    }
+
+    &-avatar {
+      height: 140px;
+      width: 140px;
+      align-items: center;
+      display: block;
+      object-fit: cover;
+      position: relative;
+      margin-top: 87px;
+      border-radius: 50%;
+    }
+
+    &-columns {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 139px;
+      height: 56px;
+      z-index: 1;
+      margin-bottom: 79px;
+
+      &::before {
+        content: '';
+        position: absolute;
+        width: 139px;
+        height: 56px;
+        background-color: rgba(32, 96, 246, 1);
+        border-radius: 12px;
+        transform: rotate(-60deg);
+        z-index: -1;
+
+        top: 90px;
+        left: 50px;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        width: 139px;
+        height: 56px;
+        background-color: rgba(32, 96, 246, 1);
+        border-radius: 12px;
+        transform: rotate(-60deg);
+        z-index: -1;
+
+        top: 1px;
+        right: 44px;
+      }
+    }
+    &-group {
+      height: 24px;
+      width: 24px;
+      margin-top: 79px;
+    }
+
+    &-text {
+      font-family:
+        Open Sans Arial,
+        Helvetica,
+        sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 150%;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #6c788b;
+    }
+
+    &-name {
+      font-family:
+        Open Sans Arial,
+        Helvetica,
+        sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+
+      line-height: 150%;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #253757;
+    }
+
+    &-special {
+      font-family:
+        Poppins Arial,
+        Helvetica,
+        sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 100%;
+      letter-spacing: 3px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #c0cdd7;
+      margin-bottom: 32px;
+    }
+  }
+}

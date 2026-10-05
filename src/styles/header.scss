@@ -1,0 +1,62 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+
+  margin: 0;
+  padding: 10px 227px;
+
+  background: #2c2c2c;
+}
+
+.nav {
+  justify-self: center;
+
+  &-list {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+
+    list-style: none;
+  }
+
+  &-item {
+    font-family: 'Poppins Arial', Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    &-hire {
+      justify-self: end;
+      position: relative;
+
+      &::after{
+        content: '';
+        background: #2060F6;
+        height: 2px;
+        width: calc(100% - 3px);
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+
+      }
+    }
+  }
+
+  &-logo {
+    display: flex;
+    align-items: center;
+    justify-self: start;
+  }
+}
+.logo-images{
+  height: 28px;
+  width: 46px;
+  object-fit: contain;
+}

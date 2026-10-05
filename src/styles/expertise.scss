@@ -1,0 +1,60 @@
+.expertise{
+  background-color: #fff;
+  border-radius: 30px;
+  padding-top: 124px;
+  padding-bottom: 155px;
+
+
+
+
+  &-label{
+font-family: Poppins Arial, Helvetica, sans-serif;
+font-weight: 600;
+font-size: 52px;
+line-height: 150%;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+color:#253757;
+
+  }
+  &-cards{
+  display: flex;
+  gap: 177px;
+  align-items: center;
+  justify-content: center;
+}
+&-card{
+
+
+  &-image{
+    width: 166px;
+height: 166px;
+top: 1574px;
+left: 276px;
+margin: 0 auto;
+display: block;
+
+  }
+  &-label{
+    font-family: Poppins Arial, Helvetica, sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+letter-spacing: 0px;
+text-align: center;
+color: #253757;
+
+  }
+  &-text{
+    font-family: Open Sans Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0px;
+text-align: center;
+color: #6C788B;
+
+  }
+}
+}
