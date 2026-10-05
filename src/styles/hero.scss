@@ -48,6 +48,12 @@
     letter-spacing: 0;
 
     background-color: #2060f6;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+
+    &:hover{
+      background-color: #0b3bac;
+    }
   }
 
   &-visual {
