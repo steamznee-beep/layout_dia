@@ -1,26 +1,32 @@
 .vision {
   position: relative;
+
+  overflow: hidden;
   display: flex;
-  min-height: 700px;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  padding: 120px 24px 40px;
+
   box-sizing: border-box;
+  min-height: 700px;
+  padding: 120px 24px 40px;
+
   text-align: center;
+
   background-color: #fff;
 
   &::before {
+    pointer-events: none;
+    content: '';
+
     position: absolute;
     z-index: 0;
+    inset: 0;
+
+    opacity: 1;
     background-image: url('../images/Shapes.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90% auto;
-    content: '';
-    inset: 0;
-    opacity: 1;
-    pointer-events: none;
   }
 
   &__content {
@@ -32,58 +38,54 @@
 
   &__title {
     margin: 0 0 36px;
-    color: #253858;
-    line-height: 1.2;
-    font-family:
-      Poppins Arial,
-      Helvetica,
-      sans-serif;
-    font-weight: 600;
+
+    font-family: 'Poppins Arial', Helvetica, sans-serif;
     font-size: 52px;
+    font-weight: 600;
+    line-height: 1.2;
     line-height: 150%;
-    letter-spacing: 0px;
+    color: #253858;
     text-align: center;
+    letter-spacing: 0;
     vertical-align: middle;
   }
 
   &__description {
     max-width: 740px;
     margin: 0 auto 72px;
-    color: #6f7c91;
-    font-weight: 500;
-    line-height: 1.45;
-    font-family:
-      Open Sans Arial,
-      Helvetica,
-      sans-serif;
-    font-weight: 600;
+
+    font-family: 'Open Sans Arial', Helvetica, sans-serif;
     font-size: 24px;
+    font-weight: 600;
+    line-height: 1.45;
     line-height: 150%;
-    letter-spacing: 0px;
+    color: #6f7c91;
     text-align: center;
+    letter-spacing: 0;
   }
 
   &__button {
     display: inline-flex;
-    width: 264px;
-    min-height: 56px;
     align-items: center;
     justify-content: center;
+
     box-sizing: border-box;
+    width: 264px;
+    min-height: 56px;
     border-radius: 8px;
-    background: #2060f6;
-    color: #fff;
-    text-decoration: none;
-    transition: background-color 0.3s;
-    font-family:
-      Poppins Arial,
-      Helvetica,
-      sans-serif;
-    font-weight: 600;
+
+    font-family: 'Poppins Arial', Helvetica, sans-serif;
     font-size: 15px;
+    font-weight: 600;
     line-height: 100%;
-    letter-spacing: 0px;
+    color: #fff;
     text-align: center;
+    text-decoration: none;
+    letter-spacing: 0;
+
+    background: #2060f6;
+
+    transition: background-color 0.3s;
 
     &:hover {
       background: #144edb;

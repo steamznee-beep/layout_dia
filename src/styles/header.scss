@@ -33,18 +33,20 @@
     letter-spacing: 3px;
 
     &-hire {
-      justify-self: end;
       position: relative;
+      justify-self: end;
 
-      &::after{
+      &::after {
         content: '';
-        background: #2060F6;
-        height: 2px;
-        width: calc(100% - 3px);
-        position: absolute;
-        left: 0;
-        bottom: -8px;
 
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+
+        width: calc(100% - 3px);
+        height: 2px;
+
+        background: #2060f6;
       }
     }
   }
@@ -55,8 +57,9 @@
     justify-self: start;
   }
 }
-.logo-images{
-  height: 28px;
+
+.logo-images {
   width: 46px;
+  height: 28px;
   object-fit: contain;
 }
