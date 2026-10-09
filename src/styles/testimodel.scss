@@ -1,5 +1,7 @@
 .testimonials {
   padding: 100px 227px;
+  align-items: center;
+  justify-content: center;
 
   &-subtitle {
     font-family: 'Poppins Arial', Helvetica, sans-serif;
@@ -32,6 +34,7 @@
     align-items: center;
     justify-content: center;
     justify-content: flex-end;
+    margin: 0 auto;
 
     width: 362px;
     height: 494px;
