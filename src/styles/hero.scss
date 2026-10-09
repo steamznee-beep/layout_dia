@@ -2,11 +2,11 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
+  height: 100vh;
   padding-top: 28px;
   padding-left: 227px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  height: 100vh;
 
   background: #2c2c2c;
 
@@ -33,8 +33,9 @@
     letter-spacing: 0;
   }
 
-
   &-button {
+    cursor: pointer;
+
     width: 264px;
     height: 50px;
     margin-top: 83px;
@@ -50,10 +51,10 @@
     letter-spacing: 0;
 
     background-color: #2060f6;
-    cursor: pointer;
+
     transition: background-color 0.3s linear;
 
-    &:hover{
+    &:hover {
       background-color: #0b3bac;
     }
   }
@@ -89,12 +90,12 @@
 
       width: 32px;
       height: 32px;
+      margin: 0;
       border-radius: 50%;
 
       text-decoration: none;
 
       background-color: #fff;
-      margin: 0;
     }
     &-link-image {
       width: 18px;

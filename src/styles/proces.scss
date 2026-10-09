@@ -46,9 +46,12 @@
   }
 
   &-cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     flex-wrap: wrap;
     gap: 30px;
+    align-items: start;
+
     width: 55%;
   }
 
@@ -77,7 +80,7 @@
     background-color: #fff;
 
     &:nth-child(odd) {
-      transform: translateY(80px);
+      margin-top: 80px;
     }
 
     &-list {
@@ -148,9 +151,10 @@
       border-radius: 50%;
 
       background-color: #2563eb;
+
       transition: transform 0.3s linear;
 
-      &:hover{
+      &:hover {
         transform: scale(1.2);
       }
     }

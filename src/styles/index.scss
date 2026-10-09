@@ -15,3 +15,7 @@ body {
   margin: 0;
   background: $c-gray;
 }
+
+html {
+  scroll-behavior: smooth;
+}
