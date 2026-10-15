@@ -48,7 +48,7 @@
     }
 
     &-avatar {
-      position: relative;
+      position: absolute;
 
       display: block;
       align-items: center;
@@ -72,6 +72,7 @@
       width: 139px;
       height: 56px;
       margin-bottom: 79px;
+      transition: transform 1s linear;
 
       &::before {
         content: '';
@@ -87,6 +88,7 @@
         border-radius: 12px;
 
         background-color: rgba(32, 96, 246, 1);
+        transition: all 1s linear;
       }
 
       &::after {
@@ -103,7 +105,10 @@
         border-radius: 12px;
 
         background-color: rgba(32, 96, 246, 1);
+        transition: all 1s linear;
+
       }
+      
     }
     &-group {
       width: 24px;
