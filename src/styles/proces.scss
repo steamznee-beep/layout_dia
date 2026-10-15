@@ -160,3 +160,200 @@
     }
   }
 }
+
+
+@media (max-width: 1600px) {
+  .process {
+    padding-right: clamp(40px, 8vw, 128px);
+    padding-left: clamp(40px, 8vw, 128px);
+  
+  
+  }
+}
+
+@media (max-width: 1280px) {
+  .process {
+    padding-right: 48px;
+    padding-left: 48px;
+  
+  
+  }
+}
+
+@media (max-width: 1024px) {
+  .process {
+    padding-right: 32px;
+    padding-left: 32px;
+  
+  
+  }
+}
+
+@media (max-width: 380px) {
+  .process {
+    padding-right: 18px;
+    padding-left: 18px;
+  
+  
+  }
+}
+
+@media (max-width: 1280px) {
+  .process-desc br {
+    display: none;
+  
+  
+  }
+}
+
+@media (min-width: 1601px) {
+  .process {
+    padding-right: max(8.86vw, calc((100vw - 1600px) / 2));
+    padding-left: max(8.86vw, calc((100vw - 1600px) / 2));
+  
+  
+  }
+}
+
+@media (max-width: 1280px) {
+  .process-inner {
+    gap: 24px;
+  
+  
+  }
+}
+
+@media (max-width: 1280px) {
+  .process-cards {
+    width: 60%;
+    gap: 20px;
+  
+  
+  }
+}
+
+@media (max-width: 1280px) {
+  .process-card {
+    width: 100%;
+    max-width: 264px;
+  
+  
+  }
+}
+
+@media (max-width: 1024px) {
+  .process {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  
+  
+  }
+}
+
+@media (max-width: 1024px) {
+  .process-inner {
+    flex-direction: column;
+  
+  
+  }
+}
+
+@media (max-width: 1024px) {
+  .process-info {
+    width: 100%;
+  
+  
+  }
+}
+
+@media (max-width: 1024px) {
+  .process-cards {
+    width: 100%;
+  
+  
+  }
+}
+
+@media (max-width: 1024px) {
+  .process-info {
+    max-width: 560px;
+  
+  
+  }
+}
+
+@media (max-width: 1024px) {
+  .process-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  
+  
+  }
+}
+
+@media (max-width: 1024px) {
+  .process-card {
+    width: 100%;
+    max-width: none;
+  
+  
+  }
+}
+
+@media (max-width: 640px) {
+  .process {
+    padding: 72px 24px;
+  
+  
+  }
+}
+
+@media (max-width: 640px) {
+  .process-inner {
+    gap: 36px;
+  
+  
+  }
+}
+
+@media (max-width: 640px) {
+  .process-title {
+    font-size: 30px;
+  
+  
+  }
+}
+
+@media (max-width: 640px) {
+  .process-cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  
+  
+  }
+}
+
+@media (max-width: 640px) {
+  .process-card {
+    height: auto;
+    min-height: 264px;
+  
+  
+  }
+}
+
+@media (max-width: 640px) {
+  .process-card:nth-child(odd) {
+    margin-top: 0;
+  
+  
+  }
+}
+
+@media (max-width: 380px) {
+  .process {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  
+  
+  }
+}

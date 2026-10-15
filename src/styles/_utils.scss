@@ -1,3 +1,18 @@
 @import 'utils/vars';
 @import 'utils/mixins';
 @import 'utils/extends';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}

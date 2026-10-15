@@ -122,3 +122,170 @@
     }
   }
 }
+
+
+@media (max-width: 380px) {
+  .formely {
+    padding-right: 18px;
+    padding-left: 18px;
+  
+  
+  }
+}
+
+@media (max-width: 1600px) {
+  .formely {
+    padding-left: clamp(40px, 8vw, 128px);
+  
+  
+  }
+}
+
+@media (max-width: 1280px) {
+  .formely {
+    padding-left: 48px;
+  
+  
+  }
+}
+
+@media (max-width: 1024px) {
+  .formely {
+    padding-left: 32px;
+  
+  
+  }
+}
+
+@media (min-width: 1601px) {
+  .formely {
+    padding-right: max(8.86vw, calc((100vw - 1600px) / 2));
+    padding-left: max(8.86vw, calc((100vw - 1600px) / 2));
+  
+  
+  }
+}
+
+@media (max-width: 1600px) {
+  .formely {
+    gap: clamp(64px, 12vw, 192px);
+    padding-right: clamp(40px, 8vw, 128px);
+  
+  
+  }
+}
+
+@media (max-width: 1600px) {
+  .formely-field-form {
+    width: min(460px, 100%);
+  
+  
+  }
+}
+
+@media (max-width: 1280px) {
+  .formely {
+    gap: 56px;
+    padding-right: 48px;
+  
+  
+  }
+}
+
+@media (max-width: 1280px) {
+  .formely-field-form {
+    width: 100%;
+  
+  
+  }
+}
+
+@media (max-width: 1024px) {
+  .formely {
+    gap: 48px;
+    padding-top: 120px;
+    padding-right: 32px;
+  
+  
+  }
+}
+
+@media (max-width: 1024px) {
+  .formely-forms {
+    flex: 1 1 0;
+    min-width: 0;
+  
+  
+  }
+}
+
+@media (max-width: 1024px) {
+  .formely-contact {
+    flex: 1 1 0;
+    min-width: 0;
+  
+  
+  }
+}
+
+@media (max-width: 640px) {
+  .formely {
+    flex-direction: column;
+    gap: 72px;
+    padding: 80px 24px 48px;
+    border-radius: 24px 24px 0 0;
+  
+  
+  }
+}
+
+@media (max-width: 640px) {
+  .formely-title {
+    margin-top: 0;
+    font-size: 28px;
+  
+  
+  }
+}
+
+@media (max-width: 640px) {
+  .formely-container-field {
+    gap: 32px;
+  
+  
+  }
+}
+
+@media (max-width: 640px) {
+  .formely-field-form {
+    width: 100%;
+  
+  
+  }
+}
+
+@media (max-width: 640px) {
+  .formely-field-button {
+    width: 100%;
+    max-width: 320px;
+    margin-top: 24px;
+  
+  
+  }
+}
+
+@media (max-width: 640px) {
+  .formely-link {
+    font-size: 18px;
+  
+  
+  }
+}
+
+@media (max-width: 380px) {
+  .formely {
+    padding-top: 64px;
+  
+  
+  }
+}
