@@ -1,10 +1,10 @@
 .testimonials {
-  padding: 100px 227px;
   align-items: center;
   justify-content: center;
+  padding: 100px 227px;
 
   &-subtitle {
-    font-family: 'Poppins Arial', Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 13px;
     font-weight: 700;
     line-height: 100%;
@@ -15,7 +15,7 @@
   }
 
   &-title {
-    font-family: 'Poppins Arial', Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: 600;
     line-height: 150%;
@@ -34,10 +34,10 @@
     align-items: center;
     justify-content: center;
     justify-content: flex-end;
-    margin: 0 auto;
 
     width: 362px;
     height: 494px;
+    margin: 0 auto;
     border-radius: 16px;
 
     background-color: #fff;
@@ -72,6 +72,7 @@
       width: 139px;
       height: 56px;
       margin-bottom: 79px;
+
       transition: transform 1s linear;
 
       &::before {
@@ -88,6 +89,7 @@
         border-radius: 12px;
 
         background-color: rgba(32, 96, 246, 1);
+
         transition: all 1s linear;
       }
 
@@ -105,10 +107,11 @@
         border-radius: 12px;
 
         background-color: rgba(32, 96, 246, 1);
+
         transition: all 1s linear;
 
       }
-      
+
     }
     &-group {
       width: 24px;
@@ -117,7 +120,7 @@
     }
 
     &-text {
-      font-family: 'Open Sans Arial', Helvetica, sans-serif;
+      font-family: Roboto, Arial, Helvetica, sans-serif;
       font-size: 13px;
       font-weight: 600;
       line-height: 150%;
@@ -127,7 +130,7 @@
     }
 
     &-name {
-      font-family: 'Open Sans Arial', Helvetica, sans-serif;
+      font-family: Roboto, Arial, Helvetica, sans-serif;
       font-size: 13px;
       font-weight: 600;
       line-height: 150%;
@@ -139,7 +142,7 @@
     &-special {
       margin-bottom: 32px;
 
-      font-family: 'Poppins Arial', Helvetica, sans-serif;
+      font-family: Roboto, Arial, Helvetica, sans-serif;
       font-size: 13px;
       font-weight: 700;
       line-height: 100%;
@@ -156,8 +159,8 @@
   .testimonials {
     padding-right: clamp(40px, 8vw, 128px);
     padding-left: clamp(40px, 8vw, 128px);
-  
-  
+
+
   }
 }
 
@@ -165,8 +168,8 @@
   .testimonials {
     padding-right: 48px;
     padding-left: 48px;
-  
-  
+
+
   }
 }
 
@@ -174,8 +177,8 @@
   .testimonials {
     padding-right: 32px;
     padding-left: 32px;
-  
-  
+
+
   }
 }
 
@@ -183,16 +186,16 @@
   .testimonials {
     padding-right: 18px;
     padding-left: 18px;
-  
-  
+
+
   }
 }
 
 @media (max-width: 1280px) {
   .testimonials-card-text br {
     display: none;
-  
-  
+
+
   }
 }
 
@@ -200,24 +203,24 @@
   .testimonials {
     padding-right: max(8.86vw, calc((100vw - 1600px) / 2));
     padding-left: max(8.86vw, calc((100vw - 1600px) / 2));
-  
-  
+
+
   }
 }
 
 @media (max-width: 640px) {
   .testimonials {
     padding: 72px 24px;
-  
-  
+
+
   }
 }
 
 @media (max-width: 640px) {
   .testimonials-title {
     font-size: 30px;
-  
-  
+
+
   }
 }
 
@@ -225,24 +228,24 @@
   .testimonials {
     padding-top: 56px;
     padding-bottom: 56px;
-  
-  
+
+
   }
 }
 
 @media (max-width: 1600px) {
   .testimonials-card-visual {
     gap: clamp(20px, 3vw, 48px);
-  
-  
+
+
   }
 }
 
 @media (max-width: 1600px) {
   .testimonials-card {
     width: min(100%, 362px);
-  
-  
+
+
   }
 }
 
@@ -251,16 +254,16 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 24px;
-  
-  
+
+
   }
 }
 
 @media (max-width: 1280px) {
   .testimonials-card {
     width: 100%;
-  
-  
+
+
   }
 }
 
@@ -268,16 +271,16 @@
   .testimonials {
     padding-top: 80px;
     padding-bottom: 80px;
-  
-  
+
+
   }
 }
 
 @media (max-width: 1024px) {
   .testimonials-card-visual {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  
-  
+
+
   }
 }
 
@@ -285,16 +288,16 @@
   .testimonials-card:last-child {
     grid-column: 1 / -1;
     max-width: 480px;
-  
-  
+
+
   }
 }
 
 @media (max-width: 640px) {
   .testimonials-info {
     margin-bottom: 36px;
-  
-  
+
+
   }
 }
 
@@ -302,8 +305,8 @@
   .testimonials-card-visual {
     grid-template-columns: 1fr;
     gap: 20px;
-  
-  
+
+
   }
 }
 
@@ -312,8 +315,8 @@
     width: 100%;
     max-width: 420px;
     height: 460px;
-  
-  
+
+
   }
 }
 
@@ -322,8 +325,8 @@
     width: 100%;
     max-width: 420px;
     height: 460px;
-  
-  
+
+
   }
 }
 
@@ -331,7 +334,7 @@
   .testimonials-card {
     height: 430px;
     padding: 16px;
-  
-  
+
+
   }
 }

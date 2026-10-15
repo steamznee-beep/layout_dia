@@ -24,7 +24,7 @@
   &-link {
     position: relative;
 
-    font-family: 'Poppins Arial', Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 13px;
     font-weight: 700;
     line-height: 150%;
@@ -162,8 +162,9 @@
   .header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     gap: 20px;
+    justify-content: space-between;
+
     padding: 20px 24px;
   
   
@@ -172,9 +173,9 @@
 
 @media (max-width: 640px) {
   .nav {
+    overflow-x: auto;
     order: 3;
     width: 100%;
-    overflow-x: auto;
   
   
   }
@@ -182,8 +183,8 @@
 
 @media (max-width: 640px) {
   .nav-list {
-    justify-content: space-between;
     gap: 20px;
+    justify-content: space-between;
     margin: 0;
     padding: 8px 0 4px;
   
